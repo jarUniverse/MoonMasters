@@ -1,0 +1,467 @@
+@media screen and (max-width: 500px){
+    p.normal{
+        position: relative;
+    top: 5px;
+    width: 250px;
+    height: 210px;
+    font-family: Gotham Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    /* or 146% */
+    font-feature-settings: 'cpsp' on;
+    color: #300842;
+    }
+    img.cc_logo {
+        max-width: 10%;
+    }
+
+    .btn-buy > a > img{
+        left: 10px;
+        width: 50%;
+    }
+
+    .top-button > a > img{
+        width: 1000%;
+        height: 500px;
+        top: -245px;
+        margin-left: 50px;
+    }
+
+    .right-side > img{
+        height: 10%;
+        width: 1000%;
+    }
+
+    p.subtag{
+        position: relative;
+        top: -160px;
+        width: 200px;
+        height: 70px;
+        font-family: Poppins;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 12px;
+        /* identical to box height, or 233% */
+        font-feature-settings: 'cpsp' on;
+        color: #FFF103;
+    }
+    .left-side > img{
+        width: 10%;
+    }
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(344.2deg, #AA2FE1 36.46%, #E8DB06 100%);
+}
+/* hero-page-style */
+.body-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 500%;
+}
+
+.hero-container{
+    position: relative;
+    padding-right: 25px;
+}
+
+.hero-page{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500%;
+}
+
+.tagline-side{
+    padding-left: 25px;
+}
+
+.tagline-side > .logo-sponsor > img{
+    max-width: 50%;
+}
+
+.left-side{
+    margin-top: 120px;
+}
+
+.right-side > img{
+    max-width: 140%;
+}
+
+.normal{
+    position: relative;
+    top: -40px;
+    width: 613px;
+    height: 210px;
+    font-family: Gotham Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    /* or 146% */
+    font-feature-settings: 'cpsp' on;
+    color: #300842;
+}
+
+.subtag{
+    position: relative;
+    top: -140px;
+    width: 452px;
+    height: 70px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    /* identical to box height, or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+
+.top-button > a > img{
+    position: relative;
+    max-width: 200%;
+    margin-right: -250px;
+    left: -350px;
+}
+
+.btn-buy > a > img{
+    position: relative;
+    top: -230px;
+    max-width: 50%;
+}
+/* end of hero-page-style */
+
+/* status style */
+.token-status{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    position: relative; 
+    top: -280px;
+    margin: 25px;
+    max-width: 500%;
+}
+
+.token-status > .chart-token > p{
+    position: relative;
+    font-family: Gotham Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 70px;
+    top: -700px;
+    left: 25px;
+    /* or 140% */
+
+    font-feature-settings: 'cpsp' on;
+
+    color: #300842;
+}
+
+.chart-token{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.live_chart{
+    position: relative;
+    left: 35px;
+    top: -735px;
+    height: 550px;
+    width: 800px;
+    background-color: #000;
+    border-radius: 2%;
+}
+
+.chart-token > img{
+    position: relative;
+    left: -190px;
+    height: 650px;
+    width: 1250px;
+}
+
+.detail-status{
+    margin-left: -380px;
+    padding-top: 55px;
+}
+
+.detail-status > .holder-status > img{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.detail-status > .cap-market-status > img{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.detail-status > .holder-status >  p{
+    position: relative;
+    top: -180px;
+    padding-left: 25px;
+    margin-bottom: -20%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    /* or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #300842;
+}
+
+.detail-status > .holder-status >  h1{
+    position: relative;
+    top: -120px;
+    padding-left: 25px;
+    margin-bottom: -10%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 146% */
+    color: #FFF103;
+}
+
+.detail-status > .cap-market-status >  p{
+    position: relative;
+    top: -180px;
+    padding-left: 25px;
+    margin-bottom: -20%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    /* or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #300842;
+}
+
+.detail-status > .cap-market-status >  h1{
+    position: relative;
+    top: -120px;
+    padding-left: 25px;
+    margin-bottom: -10%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 146% */
+    color: #FFF103;
+}
+
+/* end of token stats page */
+
+/* about token page starts here */
+.about-token{
+    display: flex;
+    margin-top: -1000px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.side-image-logo{
+    position: relative;
+    left: -235px;
+    top: -100px;
+}
+
+.side-image-logo > img{
+    width: 150%;
+}
+
+.about-token > .bio-token > img{
+    position: relative;
+    top: 20px;
+}
+
+.about-token > .bio-token > p{
+    width: 854px;
+    height: 350px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+
+p.who2{
+    position: relative;
+    top: -130px;
+}
+
+/* end of about token */
+/* roadmap page */
+.roadmap-page{
+    margin-left: 25px;
+}
+
+.art-line{
+    position: relative;
+    top: -420px;
+    width: 50px;
+    height: 20px;
+}
+
+
+details > summary{
+    position: relative;
+    top: -300px;
+    padding: 4px;
+    width: 200px;
+    background-color: #300842;
+    border-radius: 4%;
+    cursor: pointer;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+
+details > .content-details > p{
+    position: relative;
+    top: -300px;
+    margin-top: -16px;
+    padding: 7px 4px 7px 4px;
+    width: 200px;
+    background-color: #300842;
+    border-radius: 4%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    /* or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+
+/* change icon of details */
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary::before {
+    content: none;
+}
+
+details[open] > summary::before {
+    content: none;
+}
+
+details {
+    border-radius: 0.2rem;
+}
+
+details[open] > summary {
+    margin-bottom: 0.5rem;
+}
+/* end changing icon of details */
+/* end of roadmap page */
+/* starts key features page */
+.keyf-page{
+    position: relative;
+    margin-right: 25px;
+    margin-left: 25px;
+    top: -250px;
+}
+
+.description > p{
+    position: relative;
+    top: -20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    /* or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+
+.desc-detail{
+    display: block;
+}
+
+.tokenomics{
+    margin-top: 100px;
+}
+
+.tokenomics > .renounced{
+    margin-top: -80px;
+    width: 50%;
+}
+
+.tokenomics > .renounced > img{
+    position: relative;
+    top: -20px;
+    width: 10%;
+}
+
+.tokenomics > .renounced > .desc-detail > h1{
+    position: relative;
+    top: 15px;
+    font-family: Gotham Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 70px;
+    /* identical to box height, or 146% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+
+.tokenomics > .renounced > .desc-detail > p{
+    position: relative;
+    top: -45px;
+    left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 70px;
+    /* identical to box height, or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+/* end of key features */
+/* Footer Starts here */
+.footer {
+    margin: -300px 0px 0px 0px;
+}
+
+.footer > .cta-btn > img{
+    width: 33%;
+}
+
+.footer > .partner > p{
+    text-align: center;
+    font-family: Gotham Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 70px;
+    /* identical to box height, or 233% */
+    font-feature-settings: 'cpsp' on;
+    color: #FFF103;
+}
+
+.footer > .partner > img{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
